@@ -1,0 +1,58 @@
+
+.palindrom-container {
+  max-width: 450px;
+  margin: 30px auto;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fff;
+  color: #333;
+}
+
+.palindrom-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.palindrom-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.palindrom-container label {
+  font-weight: bold;
+}
+
+.palindrom-container input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.palindrom-container button {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #7c3aed;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.palindrom-container button:hover {
+  background-color: #6d28d9;
+}
+
+.palindrom-result {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #f5f3ff;
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+}
+
+.palindrom-result h3 {
+  margin-top: 0;
+}

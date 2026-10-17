@@ -1,0 +1,58 @@
+
+.konsonan-container {
+  max-width: 450px;
+  margin: 30px auto;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fff;
+  color: #333;
+}
+
+.konsonan-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.konsonan-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.konsonan-container label {
+  font-weight: bold;
+}
+
+.konsonan-container input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.konsonan-container button {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.konsonan-container button:hover {
+  background-color: #1d4ed8;
+}
+
+.konsonan-result {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #eff6ff;
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+}
+
+.konsonan-result h3 {
+  margin-top: 0;
+}
